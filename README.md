@@ -70,7 +70,7 @@ No modules.
 <!-- END_TF_DOCS -->
 
 
-## Calling Code
+## Calling Code Example
 
 This is a suggestion of what the calling code might look like
 
@@ -91,7 +91,7 @@ locals {
 }
 
 module "application" {
-  source                   = 
+  source                   = "git@github.com:ministryofjustice/staff-infrastructure-alz-terraform-azuread-application.git"
   for_each                 = local.applications
   app_role                 = each.value.app_role
   api                      = each.value.api
