@@ -6,7 +6,7 @@ terraform {
       version = "2.22.0"
     }
     azurerm = {
-      version = "2.80.0"
+      version = "3.31.0"
     }
   }
 
